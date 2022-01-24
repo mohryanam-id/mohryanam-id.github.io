@@ -11296,18 +11296,26 @@ html {
   padding: 6rem 0;
 }
 .page-section .page-section-heading {
-  font-size: 2.25rem;
+  font-size: 1.25rem;
   line-height: 2rem;
 }
+
+.page-section .page-section-subheading{
+  font-size: 1.0rem;
+}
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
+    font-size: 2.0rem;
     line-height: 2.5rem;
+  }
+  .page-section .page-section-subheading{
+    font-size: 1.25rem;
   }
 }
 
 .divider-custom {
-  margin: 1.25rem 0 1.5rem;
+  margin: 1.0rem 0 1.0rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -11447,12 +11455,11 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-bottom: 7rem;
   }
   .masthead .masthead-heading {
-    font-size: 3rem;
-    line-height: 3.5rem;
+    font-size: 2rem;
+    line-height: 1.0rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
